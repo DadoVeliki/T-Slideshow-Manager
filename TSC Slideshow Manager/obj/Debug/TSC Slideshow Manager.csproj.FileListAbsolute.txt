@@ -1,0 +1,12 @@
+C:\Users\MSI\source\repos\TSC Slideshow Manager\TSC Slideshow Manager\bin\Debug\TSC Slideshow Manager.exe.config
+C:\Users\MSI\source\repos\TSC Slideshow Manager\TSC Slideshow Manager\bin\Debug\TSC Slideshow Manager.exe
+C:\Users\MSI\source\repos\TSC Slideshow Manager\TSC Slideshow Manager\bin\Debug\TSC Slideshow Manager.pdb
+C:\Users\MSI\source\repos\TSC Slideshow Manager\TSC Slideshow Manager\obj\Debug\TSC Slideshow Manager.csproj.AssemblyReference.cache
+C:\Users\MSI\source\repos\TSC Slideshow Manager\TSC Slideshow Manager\obj\Debug\TSC Slideshow Manager.csproj.SuggestedBindingRedirects.cache
+C:\Users\MSI\source\repos\TSC Slideshow Manager\TSC Slideshow Manager\obj\Debug\TSC_Slideshow_Manager.Form1.resources
+C:\Users\MSI\source\repos\TSC Slideshow Manager\TSC Slideshow Manager\obj\Debug\TSC_Slideshow_Manager.Properties.Resources.resources
+C:\Users\MSI\source\repos\TSC Slideshow Manager\TSC Slideshow Manager\obj\Debug\TSC Slideshow Manager.csproj.GenerateResource.cache
+C:\Users\MSI\source\repos\TSC Slideshow Manager\TSC Slideshow Manager\obj\Debug\TSC Slideshow Manager.csproj.CoreCompileInputs.cache
+C:\Users\MSI\source\repos\TSC Slideshow Manager\TSC Slideshow Manager\obj\Debug\TSC Slideshow Manager.exe
+C:\Users\MSI\source\repos\TSC Slideshow Manager\TSC Slideshow Manager\obj\Debug\TSC Slideshow Manager.pdb
+C:\Users\MSI\source\repos\TSC Slideshow Manager\TSC Slideshow Manager\obj\Debug\TSC_Slideshow_Manager.Form2.resources
