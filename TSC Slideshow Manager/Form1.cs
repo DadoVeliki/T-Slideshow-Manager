@@ -29,7 +29,7 @@ namespace TSC_Slideshow_Manager
             spajanje.unos(ime,lozinka);
             if (spajanje.stanje)
             {
-                Form2 form2 = new Form2(spajanje);
+                Form2 form2 = new Form2(spajanje,ime,lozinka);
                 form2.ShowDialog();
                 this.Close();
             }

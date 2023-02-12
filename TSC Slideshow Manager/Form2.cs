@@ -18,11 +18,6 @@ namespace TSC_Slideshow_Manager
     public partial class Form2 : Form
     {
         public Spajanje spajanje;
-        public Form2(Spajanje spajanje)
-        {
-            InitializeComponent();
-            this.spajanje = spajanje;
-        }
         public string Username;
         public string Filename;
         public string Fullname;
@@ -30,9 +25,17 @@ namespace TSC_Slideshow_Manager
         public string Password;
         public string path;
         public string localdest;
+        public Form2(Spajanje spajanje,string ime,string lozinka)
+        {
+            InitializeComponent();
+            this.spajanje = spajanje;
+            this.Username = ime;
+            this.Password = lozinka;
+        }
+        
         private void Form2_Load(object sender, EventArgs e)
         {
-            comboBox1.Items.Add("ftp://127.0.0.1:14147");
+            //comboBox1.Items.Add("ftp://127.0.0.1:14147");
             SqlCommand naredba;
             SqlDataReader dataReader;
             String sql;
@@ -212,6 +215,16 @@ namespace TSC_Slideshow_Manager
             Thread.Sleep(1000);
             backgroundWorker1.RunWorkerAsync();
             Thread.Sleep(1000);
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            if (spajanje.stanje)
+            {
+                Dodavanje dod = new Dodavanje(spajanje);
+                dod.ShowDialog();
+                this.Close();
+            }
         }
     }
 }
